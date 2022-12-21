@@ -10,7 +10,12 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -19,14 +24,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Menu part css start */
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    transition: all 0.3s ease;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 0.4px;
+  transition: all 0.3s ease;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.4px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: tomato !important;
+  color: tomato !important;
+}
+
+.navbar-toggler div {
+  width: 30px;
+  height: 3px;
+  background: white;
+  padding: ;
+  margin: 5px 0;
+  border-radius: 10px;
 }
 
 /* Menu part css end */
@@ -36,35 +50,35 @@ h1, h2, h3, h4, h5, h6 {
 .row.pageNotFound text {}
 
 .pageNotFound .text h1 {
-    color: tomato;
-    font-size: 100px;
-    font-weight: 700;
+  color: tomato;
+  font-size: 100px;
+  font-weight: 700;
 }
 
 .pageNotFound .text h2 {
-    font-size: 37px;
-    font-weight: 700;
+  font-size: 37px;
+  font-weight: 700;
 }
 
 .pageNotFound .text p {
-    font-weight: 500;
-    letter-spacing: -0.4px;
-    margin-top: 20px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  margin-top: 20px;
 }
 
 .pageNotFound .text a {
-    color: white;
-    background: tomato;
-    text-decoration: none;
-    padding: 11px 30px;
-    margin-top: 13px;
-    display: inline-block;
-    border-radius: 6px;
-    font-weight: 600;
+  color: white;
+  background: tomato;
+  text-decoration: none;
+  padding: 11px 30px;
+  margin-top: 13px;
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: 600;
 }
 
 .pageNotFound .text a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* 404 bit found css end */
@@ -99,6 +113,8 @@ form.loginForm h1:before {
   background: #212529;
 }
 
-.form-control.is-invalid, .was-validated .form-control:invalid, .form-control:focus {
+.form-control.is-invalid,
+.was-validated .form-control:invalid,
+.form-control:focus {
   box-shadow: none !important;
 }
